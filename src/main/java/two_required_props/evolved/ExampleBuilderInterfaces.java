@@ -14,7 +14,6 @@ public interface ExampleBuilderInterfaces {
 
     interface FinalBuilderInterf extends BuilderInterf<FinalBuilderInterf> {
         FinalBuilderInterf first(String first);
-        FinalBuilderInterf second(int second);
         FinalBuilderInterf third(boolean third);
         FinalBuilderInterf fourth(char fourth);
         Example build();
