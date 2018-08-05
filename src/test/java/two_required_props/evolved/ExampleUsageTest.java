@@ -1,6 +1,7 @@
 package two_required_props.evolved;
 
 import org.junit.Test;
+import two_required_props.Example;
 
 import static two_required_props.evolved.ExampleBuilder.example;
 import static org.assertj.core.api.Assertions.assertThat;

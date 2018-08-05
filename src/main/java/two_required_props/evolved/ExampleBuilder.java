@@ -1,5 +1,6 @@
 package two_required_props.evolved;
 
+import two_required_props.Example;
 import two_required_props.evolved.ExampleBuilderInterfaces.BuilderInterf;
 import two_required_props.evolved.ExampleBuilderInterfaces.FinalBuilderInterf;
 

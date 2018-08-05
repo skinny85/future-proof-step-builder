@@ -1,5 +1,7 @@
 package two_required_props.evolved;
 
+import two_required_props.Example;
+
 /**
  * Equivalent of {@link two_required_props.ExampleBuilderInterfaces},
  * but with `first` now optional.
