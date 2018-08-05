@@ -2,15 +2,26 @@ package two_required_props;
 
 /**
  * This is the example class that we will be constructing with our Builders.
- * It has a total of 4 properties, 2 of which
- * ({@link #first} and {@link #second})
- * are required.
- *
- * Check out the two_required_props.ExampleUsageTest tests class for examples
- * of how is the Builder used.
- *
- * Later, we will see how this class evolves when we change {@link #first}
- * from required to optional - see {@link two_required_props.evolved.Example}.
+ * It has a total of 4 properties.
+ * <p>
+ * At first, 2 of them ({@link #first} and {@link #second})
+ * will be required. Later, we will change things up,
+ * and simulate "evolving" the API by changing {@link #first}
+ * from required to optional, and see our Builders retain backwards compatibility.
+ * <p>
+ * There are 2 future-proof Step Builder variants:
+ * the {@link two_required_props.ExampleBuilder static factory method variant},
+ * and the {@link two_required_props.interfaces_variant.ExampleBuilder interfaces variant}.
+ * Both achieve type-safety
+ * (you cannot build the instance before providing all of the required properties),
+ * and do so with a single Builder instance
+ * (there is no copying involved when setting the properties,
+ * so no memory usage penalty for using these over regular, unsafe, Builders)
+ * while allowing you to evolve the API by changing properties from required to optional -
+ * they just vary in the trade-offs they make.
+ * See the respective Builders for the details of these trade-offs.
+ * <p>
+ * Check out the test folder for examples of using the various Builders.
  */
 public final class Example {
     public final String first;
