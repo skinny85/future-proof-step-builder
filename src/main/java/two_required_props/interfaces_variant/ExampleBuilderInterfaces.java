@@ -3,7 +3,8 @@ package two_required_props.interfaces_variant;
 import two_required_props.Example;
 
 /**
- * The interfaces for providing type-safety in the 'interfaces' future-proof Step Builder variant,
+ * The interfaces for providing type-safety in the 'interfaces'
+ * future-proof Step Builder variant,
  * for the {@link Example} class with 2 required properties.
  *
  * @see ExampleBuilder

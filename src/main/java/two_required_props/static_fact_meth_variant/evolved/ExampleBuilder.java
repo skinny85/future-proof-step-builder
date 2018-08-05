@@ -1,12 +1,15 @@
-package two_required_props.evolved;
+package two_required_props.static_fact_meth_variant.evolved;
 
 import two_required_props.Example;
-import two_required_props.evolved.ExampleBuilderInterfaces.BuilderInterf;
-import two_required_props.evolved.ExampleBuilderInterfaces.FinalBuilderInterf;
+import two_required_props.static_fact_meth_variant.evolved.ExampleBuilderInterfaces.BuilderInterf;
+import two_required_props.static_fact_meth_variant.evolved.ExampleBuilderInterfaces.FinalBuilderInterf;
 
 /**
- * Equivalent of {@link two_required_props.ExampleBuilder},
- * but with `first` now optional.
+ * The "evolved" (with {@link Example#first} changed from required to optional)
+ * 'static factory method' variant of the future-proof Step Builder implementation,
+ * for the {@link Example} class.
+ *
+ * @see two_required_props.static_fact_meth_variant.ExampleBuilder
  */
 public final class ExampleBuilder implements FinalBuilderInterf {
     public static

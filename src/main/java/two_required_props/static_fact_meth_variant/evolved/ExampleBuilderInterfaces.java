@@ -1,10 +1,13 @@
-package two_required_props.evolved;
+package two_required_props.static_fact_meth_variant.evolved;
 
 import two_required_props.Example;
 
 /**
- * Equivalent of {@link two_required_props.ExampleBuilderInterfaces},
- * but with `first` now optional.
+ * The interfaces for providing type-safety in the 'static factory method'
+ * future-proof Step Builder variant,
+ * for the "evolved" {@link Example} class with 1 required property.
+ *
+ * @see ExampleBuilder
  */
 public interface ExampleBuilderInterfaces {
     interface BuilderInterf<R> {

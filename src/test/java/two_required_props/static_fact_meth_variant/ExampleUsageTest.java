@@ -1,13 +1,15 @@
-package two_required_props;
+package two_required_props.static_fact_meth_variant;
 
 import org.junit.Test;
+import two_required_props.Example;
 
-import static two_required_props.ExampleBuilder.example;
+import static two_required_props.static_fact_meth_variant.ExampleBuilder.example;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Usages of the {@link Example} class with `first` and `second`
- * as required properties.
+ * Usages of the {@link Example} future-proof Builder,
+ * in the 'static factory method' variant,
+ * with `first` and `second` as required properties.
  */
 public class ExampleUsageTest {
     @Test

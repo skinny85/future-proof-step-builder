@@ -10,7 +10,7 @@ package two_required_props;
  * from required to optional, and see our Builders retain backwards compatibility.
  * <p>
  * There are 2 future-proof Step Builder variants:
- * the {@link two_required_props.ExampleBuilder static factory method variant},
+ * the {@link two_required_props.static_fact_meth_variant.ExampleBuilder static factory method variant},
  * and the {@link two_required_props.interfaces_variant.ExampleBuilder interfaces variant}.
  * Both achieve type-safety
  * (you cannot build the instance before providing all of the required properties),

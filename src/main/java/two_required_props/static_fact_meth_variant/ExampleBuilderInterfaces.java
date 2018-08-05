@@ -1,10 +1,13 @@
-package two_required_props;
+package two_required_props.static_fact_meth_variant;
+
+import two_required_props.Example;
 
 /**
- * These interfaces provide the type-safety -
- * the fact that you cannot call {@link FinalBuilderInterf#build}
- * before calling {@link BuilderInterf#first} <b>and</b>
- * {@link BuilderInterf#second}.
+ * The interfaces for providing type-safety in the 'static factory method'
+ * future-proof Step Builder variant,
+ * for the {@link Example} class with 2 required properties.
+ *
+ * @see ExampleBuilder
  */
 public interface ExampleBuilderInterfaces {
     interface BuilderInterf<R1, R2> {
