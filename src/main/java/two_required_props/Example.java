@@ -21,8 +21,10 @@ package two_required_props;
  * they just vary in the trade-offs they make.
  * See the respective Builders for the details of these trade-offs.
  * <p>
- * The "evolved" version of the Builders are {@link two_required_props.static_fact_meth_variant.evolved.ExampleBuilder}
- * and {@link two_required_props.interfaces_variant.evolved.ExampleBuilder}.
+ * The "evolved" version of the Builders
+ * (with {@link #first} changed from required to optional)
+ * are {@link two_required_props.static_fact_meth_variant.evolved.ExampleBuilder}
+ * and {@link two_required_props.interfaces_variant.evolved.ExampleBuilder}, respectively.
  * <p>
  * Check out the test folder for examples of using the various Builders.
  */
