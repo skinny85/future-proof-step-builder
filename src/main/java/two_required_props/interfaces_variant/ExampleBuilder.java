@@ -10,10 +10,9 @@ import two_required_props.interfaces_variant.ExampleBuilderInterfaces.StarterBui
  * <p>
  * In this variant, we generate a separate interface for each
  * filled required property.
- * This variant has none of the downsides of the
- * {@link two_required_props.static_fact_meth_variant.ExampleBuilder static factory method variant} -
- * the type of the Builder the customer sees is straightforward,
- * and you can set the required properties multiple times without causing any type issues.
+ * This variant does not have the same downside as the
+ * {@link two_required_props.static_fact_meth_variant.ExampleBuilder 'static factory method' variant} -
+ * the type of the Builder the customer sees is straightforward.
  * The only potential downside is the number of interfaces that are generated -
  * we need a total of 2^m interfaces,
  * where <i>m</i> is the number of required properties the target class has.

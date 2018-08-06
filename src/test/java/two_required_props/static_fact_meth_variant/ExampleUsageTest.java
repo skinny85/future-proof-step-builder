@@ -15,9 +15,12 @@ public class ExampleUsageTest {
     @Test
     public void test_example_builder() {
         Example example = example()
+                .first("abc")
                 .fourth('c')
-                .first("xyz")
+                .first("abc")
+                .first("abc")
                 .second(-2)
+                .first("xyz")
                 .third(true)
                 .build();
 

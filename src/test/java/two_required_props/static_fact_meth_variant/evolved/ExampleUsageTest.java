@@ -17,6 +17,8 @@ public class ExampleUsageTest {
     public void test_example_builder() {
         Example example = example()
                 .fourth('d')
+                .first("abc")
+                .first("abc")
                 .first("pqr")
                 .second(-3)
                 .third(true)
