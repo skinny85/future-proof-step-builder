@@ -1,5 +1,7 @@
 # Future-proof Step Builder implementation
 
+This repository contains the full source code used [in an article on my blog](http://endoflineblog.com/evolving-public-apis-based-on-type-safe-builders).
+
 The Step (sometimes also called the Type-Safe, or Telescopic, or Staged) variant of the
 Builder Pattern is a way to make creating objects with multiple properties
 using the Builder pattern in Java more type-safe.
